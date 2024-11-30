@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Cryptocurrency Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Real-Time Cryptocurrency Tracker</h1>
+        <p>Select up to 5 cryptocurrencies to compare in real time.</p>
+    </header>
+
+    <section id="crypto-list">
+        <div style="position: relative;">
+            <h2 class="title">Cryptocurrency List</h2>
+            <label style="position: absolute; top: 0px; right: 0px; margin-right: 50px;">
+                <input type="checkbox" id="sort-by-market-cap"> Sort by Market Cap
+            </label>
+        </div>
+        <ul style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 50px; list-style: none; padding: 50px; margin: 0;" id="crypto-container"></ul>
+    </section>
+
+    <section id="comparison-section">
+        <h2 class="title">Selected Cryptocurrencies for Comparison</h2>
+        <div style="padding: 50px;" id="comparison-container"></div>
+    </section>
+
+    <footer>
+        <p>Created With 🍵 By Akash Mahendra Yadav C0943354</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
